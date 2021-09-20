@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+a{
+    text-decoration-style: none;
+}
+.color_menu{
+    background: #1890dd;
+    width: 100%;
+    /* color: #000; */
+}
+.container{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    
+}
+.block{
+    display: flex;
+    justify-content: space-between;  
+}
+.img_cart{
+    margin:0px;
+    padding: 0px;
+    width:250px;
+    height: 350px;
+}
+.main_content{
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+.section{
+    margin:10px;
+}
+.cart_product{
+    display: flex;
+    flex-direction: column;
+    margin-top:5px;
+    margin-left: 15px;
+    /* border:2px solid black; */
+}
+.name_product{
+    font-family: Arial;
+    color: #000;
+}
+.price{
+    color:rgb(163, 17, 17);
+}
+.basket{
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content:space-around;
+    background: rgba(141, 186, 197, 0.425)
+}
+.block_footer{
+    margin:10px;
+    
+    display:flex;
+    width:50%;
+    flex-direction: column;
+  
+
+}
+.menu_footer{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    
+}
+.div{
+    width: 50%;
+    
+}
+.contact{
+    
+}
+.call{
+    margin:10px;
+}
+
+
+.blue{
+    color:#1395e6;
+}
+
+.main-menu{
+    
+}
+.header_menu{
+    
+}
